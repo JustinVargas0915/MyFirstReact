@@ -9,7 +9,7 @@ function App() {
       
         <img src="https://lh3.googleusercontent.com/proxy/GDF9P9UG_nAOJeLbtv0-Ag0OlAGLllYQe92dPe8GvlDYwHLS-bz2k1VmcoepXJSlu-nlyeyEaLbNc_NbzL9zr65vFiFFatY5MdU2rj9RiwpIOvOhPagWhMK7jaZDTTCNz2snvWQhSSb4D8FgDzEQ" className="App-logo" alt="logo" />
         <p>
-          PROGRAMMER NA AKO MA, PA!
+          POGGERS!
         </p>
         
         <Button></Button>

@@ -38,7 +38,7 @@ class Button extends React.Component{
                 <button className='inc' onClick={(e) => this.addCounter(e)}>Add Counter</button>
                 <button className='dec' onClick={(e) => this.decreaseCounter(e)}>Decrease Counter</button>
                 <button className='reset' onClick={(e) => this.reset(e)}>Reset Counter</button>
-                <h1>Current Counter: {this.state.count}</h1>
+                <h1>Current Counter ng utak ko: {this.state.count}</h1>
 
                 
             </div>
