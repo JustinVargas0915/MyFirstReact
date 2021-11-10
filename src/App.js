@@ -7,9 +7,9 @@ function App() {
     <div className="App">
       <header className="App-header">
       
-        <img src="https://www.pngitem.com/pimgs/m/109-1092592_pogchamp-emote-png-transparent-background-poggers-emote-png.png" className="App-logo" alt="logo" />
+        <img src="https://lh3.googleusercontent.com/proxy/GDF9P9UG_nAOJeLbtv0-Ag0OlAGLllYQe92dPe8GvlDYwHLS-bz2k1VmcoepXJSlu-nlyeyEaLbNc_NbzL9zr65vFiFFatY5MdU2rj9RiwpIOvOhPagWhMK7jaZDTTCNz2snvWQhSSb4D8FgDzEQ" className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload ------POGGERS!!.
+          PROGRAMMER NA AKO MA, PA!
         </p>
         
         <Button></Button>
