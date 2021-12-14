@@ -1,5 +1,5 @@
 import { useState } from "react"
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
 import employeeService from "../services/employeeService";
 
 const AddEmployee = () =>{
@@ -8,9 +8,11 @@ const AddEmployee = () =>{
     const {location, setLocation} = useState("");
     const {department, setDepartment} = useState("");
     const navigate = useNavigate();
+    const {id} = useParams();
 
     const saveEmployee = (e) =>{
         e.preventDefault();
+        
     }
         const employee = {name, location, department}
         employeeService.postEmployee(employee)
