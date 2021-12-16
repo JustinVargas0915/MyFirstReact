@@ -1,17 +1,21 @@
 import httpclient from "../commons/httpclient";
 
-const getEmployees = () =>{
-    return httpclient.get('/employees');
+const getEmployees = () => {
+    return httpclient.get('/employees')
 }
-const postEmployee = (data) =>{
+const postEmployee = (data) => {
     return httpclient.post('/employees', data)
 }
-const putEmployee = (data) =>{
+const putEmployee = (data) => {
     return httpclient.post('/employees', data)
 }
-const getEmployee = (id) =>{
-    return httpclient.get('/employees/${id}');
+const getEmployee = (employeeId) => {
+    return httpclient.get(`/employees/${employeeId}`);
+}
+
+const deleteEmployee = (employeeId) => {
+    return httpclient.delete(`employees/${employeeId}`);
 }
 
 
-export default {getEmployees, postEmployee, putEmployee, getEmployee}
+export default { getEmployees, postEmployee, putEmployee, getEmployee, deleteEmployee }
